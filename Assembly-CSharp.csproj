@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{29F2C2A4-976E-5F67-1326-4546CE710449}</ProjectGuid>
+    <ProjectGuid>{58660A10-6719-6980-86E3-AE8274F3CBB2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,10 +53,12 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraFollow.cs" />
-    <Compile Include="Assets\scripts\bubbleJump.cs" />
+    <Compile Include="Assets\scripts\CameraFollow.cs" />
+    <Compile Include="Assets\scripts\PauseMenu.cs" />
     <Compile Include="Assets\scripts\conBackgorund.cs" />
+    <Compile Include="Assets\scripts\bubbleJump.cs" />
     <Compile Include="Assets\scripts\mainmenu.cs" />
+    <Compile Include="Assets\scripts\lvlrestart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
